@@ -16,5 +16,6 @@ IBM's current customer management strategy involves analyzing target customers, 
 ## Analytical Process
 
 We built statistical models in response to the two problems. 
-1. Differentiated precise marketing is crucial for increasing the CLV. Hence, for the first problem, we built up a K-Means model that divides the consumers into three segments and discussed the corresponding strategy of promotion and maintenance. The promotion strategy is further enhanced by a response-prediction model based on random forest classifier.
+1. For the first problem, we built up a K-Means model for differentiated precise marketing. The model divides the consumers into three clusters based on their profile and transaction history. Based on the result, we discussed corresponding strategies of product promotion and customer maintenance with response to each segments. Our promotion strategy is further enhanced by a response-prediction model based on random forest classifier. Data processing and modeling process can be found [here](https://github.com/rsm-mec014/customer-lifetime-value-analysis-and-prediction/blob/main/kmeans%20copy_all.ipynb)
+![]
 2. For the second problem, we performed a risk prediction model and identified the significant factors to the risk, which could assist in the adjustment of premium policy and risk assessment schemes.
