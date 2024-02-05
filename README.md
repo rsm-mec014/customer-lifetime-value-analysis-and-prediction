@@ -15,7 +15,12 @@ IBM's current customer management strategy involves analyzing target customers, 
 
 ## Analytical Process
 
-We built statistical models in response to the two problems. 
-1. For the first problem, we built up a K-Means model for differentiated precise marketing. The model divides the consumers into three clusters based on their profile and transaction history. Based on the result, we discussed corresponding strategies of product promotion and customer maintenance with response to each segments. Our promotion strategy is further enhanced by a response-prediction model based on random forest classifier. Data processing and modeling process can be found [here](https://github.com/rsm-mec014/customer-lifetime-value-analysis-and-prediction/blob/main/kmeans%20copy_all.ipynb)
-![]
+We built several statistical models in response to the two problems. 
+1. For the first problem, we built up a **K-Means** model for differentiated precise marketing. The model divides the consumers into three clusters based on their profile and transaction history. Based on the result, we discussed corresponding strategies of product promotion and customer maintenance with response to each segments. Our promotion strategy is further enhanced by a response-prediction model based on **random forest** classifier. Data processing and modeling process can be found [here](https://github.com/rsm-mec014/customer-lifetime-value-analysis-and-prediction/blob/main/kmeans%20copy_all.ipynb)
+![K-Means Model](https://github.com/rsm-mec014/customer-lifetime-value-analysis-and-prediction/blob/83355b7c49212788b48c9112a6c8ad32e4686883/figures/Screenshot%202024-02-04%20212410.png)
 2. For the second problem, we performed a risk prediction model and identified the significant factors to the risk, which could assist in the adjustment of premium policy and risk assessment schemes.
+![Risk Prediction Model](https://github.com/rsm-mec014/customer-lifetime-value-analysis-and-prediction/blob/83355b7c49212788b48c9112a6c8ad32e4686883/figures/Screenshot%202024-02-04%20205524.png)
+
+## Result and Analysis
+We analyzed features of three customer groups divided by the K-Means model, and pictured their representative profile in the figure below.
+![Customer Profile](https://github.com/rsm-mec014/customer-lifetime-value-analysis-and-prediction/blob/83355b7c49212788b48c9112a6c8ad32e4686883/figures/Screenshot%202024-02-04%20205445.png)
